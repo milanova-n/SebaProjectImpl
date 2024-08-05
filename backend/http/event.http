@@ -1,0 +1,34 @@
+###
+POST http://localhost:8080/api/events/create
+
+Content-Type: application/json
+
+{
+  "eventSubmitter": "Hans Peter",
+  "userId": "6650f61c28b51f6e4047091d",
+    "eventName": "Neue Party XYZ",
+    "eventStartDate": "2024-06-07T10:00:00Z",
+    "eventEndDate": "2024-06-24T18:00:00Z",
+    "eventDescription": "Test 123",
+    "eventCategory": "Study Group",
+    "eventLocation": "Garching",
+    "price": 30,
+    "published": false
+}
+
+###
+PATCH http://localhost:8080/api/events/patch/6651b2426ba78620d169f1a7
+Content-Type: application/json
+
+{
+    "eventDescription": "Test NEU"
+}
+###
+DELETE http://localhost:8080/api/events/delete/6650f61c28b51f6e4047091d
+###
+GET http://localhost:8080/api/events/getAll
+###
+
+
+
+

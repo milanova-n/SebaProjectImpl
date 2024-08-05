@@ -1,0 +1,18 @@
+###
+POST http://localhost:8080/users/create
+Content-Type: application/json
+
+{
+        "lastname": "Peter",
+        "firstname": "Hans",
+        "email": "hanspeter@gmail.com",
+        "stripeCustomerId": "cus_QERGHLccGWaFr6",
+        "birthday": "1958-05-24",
+        "instagram": "hanspter1958",
+        "linkedIn": "@hanspeter"
+}
+###
+GET http://localhost:8080/users/byName/Hans Peter
+###
+DELETE http://localhost:8080/users/delete/665100077fe9205253f5ff76
+###

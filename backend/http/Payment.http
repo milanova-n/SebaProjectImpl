@@ -1,0 +1,14 @@
+### GET request to example server
+ POST http://localhost:8080/api/categories/create
+Content-Type: application/json
+
+{
+  "authentication": "Other"
+}
+
+###
+
+//  "category": "Beverages",
+
+###
+GET http://localhost:8080/api/categories/getAll

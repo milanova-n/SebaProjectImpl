@@ -1,0 +1,12 @@
+body {
+    background-color: white; /* Ensure the background is set to white or another visible color */
+    color: black; /* Set the text color to ensure visibility */
+}
+
+.whiteTextField .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: white; /* Set the border color to black */
+}
+
+.whiteTextField .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    color: white; /* Set the border color to black */
+}
